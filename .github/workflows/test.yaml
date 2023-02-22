@@ -1,0 +1,11 @@
+name: test yaml
+
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Mi terrile de build
+      run: echo "Hello World"
